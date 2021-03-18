@@ -1,3 +1,3 @@
 # LongitudinalAMDNet
 
-This repository contains the Pytorch implementation for [LongitudinalAMDNet: A Temporal Correlation Structure Guided Deep Learning Framework for Predicting Longitudinal Age-Related Macular Degeneration Severity](https://a)
+This repository contains the implementation for [LongitudinalAMDNet: A Temporal Correlation Structure Guided Deep Learning Framework for Predicting Longitudinal Age-Related Macular Degeneration Severity](https://a) in Pytorch.
