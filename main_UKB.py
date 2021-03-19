@@ -105,7 +105,7 @@ y_true = []
 if args.experiment == 'current_step':
     # Predicting Current step
 
-    Data_folder = os.path.join(args.data_ukb_dir, 'CurrTimePoint3')
+    Data_folder = args.data_ukb_dir
     label = {'AdvAMD': 1, 'Control': 0}
     for folder in ['AdvAMD', 'Control']:
         folder_label = label[folder]

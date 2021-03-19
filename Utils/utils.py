@@ -60,12 +60,9 @@ def logging_args(args):
 
 
 def set_logging_settings(args, main_file):
-    # args.data_dir = './Datasets/AREDS'
-    # args.stdout = './results'
-    # args.data_ukb_dir = './Datasets/AMDUKB'
-    args.data_dir = '/home/alireza/Datasets/AMDImageGenetics'
-    args.stdout = '/home/alireza/results'
-    args.data_ukb_dir = '/home/alireza/Datasets/AMDImageGeneticCheck/AMDUKB'
+    args.data_dir = './Datasets/AREDS'
+    args.stdout = './results'
+    args.data_ukb_dir = './Datasets/AMDUKB'
 
     args.pheno_dir = os.path.join(args.data_dir, args.phenotype_file)
     args.pheno_ukb_dir = os.path.join(args.data_ukb_dir, args.phenotype_file_ukb)
