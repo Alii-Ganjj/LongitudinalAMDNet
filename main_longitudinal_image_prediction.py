@@ -175,9 +175,9 @@ for seq in test_seq:
         test_long_seq.append(long_seq)
 
 # ############################# Loading Checkpoints #############################
-checkpoint_dir_4 = './Datasets/checkpoints/GAN_4'
-checkpoint_dir_6 = './Datasets/checkpoints/GAN_6'
-checkpoint_dir_8 = './Datasets/checkpoints/GAN_8'
+checkpoint_dir_4 = './Models/checkpoints/GAN_4'
+checkpoint_dir_6 = './Models/checkpoints/GAN_6'
+checkpoint_dir_8 = './Models/checkpoints/GAN_8'
 
 epoch_4 = 35
 args.checkpoint_dir = checkpoint_dir_4
