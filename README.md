@@ -10,18 +10,10 @@ This repository contains the Pytorch implementation for:
   <img src=./Figures/LongitudinalPred.png width = '293px' height = '183px'>
 </div>
 
-<div id="banner" style="overflow: hidden;justify-content:space-around;">
-<div class="" style="width: 293px; height: 183px;display: inline-block;">
-    <img src="./Figures/LongitudinalPred.png">
-</div>
-
-<div class="" style="width: 293px; height: 183px;display: inline-block;">
-    <img src="./Figures/ProgressedMainText1.png">
-</div>
-
-<div class="" style="width: 293px; height: 183px;display: inline-block;">
-    <img src="./Figures/saliency.png">
-</div>
+<div id="container">
+  <div id="left"><img src=./Figures/LongitudinalPred.png width = '293px' height = '183px'></div>
+  <div id="right"><img src=./Figures/ProgressedMainText1.png width = '293px' height = '183px'></div>
+  <div id="center"><img src=./Figures/saliency.png width = '293px' height = '183px'></div>
 </div>
 
 
