@@ -7,7 +7,7 @@ This repository contains the Pytorch implementation for:
 
 
 <div align="left">
-  <img src=./Figures/LongitudinalPred.png width = '324px' height = '494px'>
+  <img src=./Figures/LongitudinalPred.png width = '586px' height = '367px'>
 </div>
 
 
