@@ -26,7 +26,7 @@ from PIL import Image
 parser = argparse.ArgumentParser()
 parser.add_argument('--random_seed', type=int,  default=1)
 parser.add_argument('--verbose', default=1)
-parser.add_argument('--gpus', default='0', help='gpu:i, i in [0, 1, 2, 3]')
+parser.add_argument('--gpus', default='1', help='gpu:i, i in [0, 1, 2, 3]')
 parser.add_argument('--gpu_ids', default=[])
 parser.add_argument('--debug', default=False, help='loads less training data to make debug faster.')
 parser.add_argument('--debug_len', default=5, help='loads 2 samples in train/val/test datasets.')
