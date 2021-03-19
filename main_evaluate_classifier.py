@@ -102,17 +102,16 @@ args.class_loss = nn.CrossEntropyLoss(weight=class_weights)
 
 # ############################# Loading Checkpoint #############################
 if args.visit_gap == 4:
-    checkpoint_class_dir = './Datasets/checkpoints/Classifier_4'
+    checkpoint_class_dir = './Models/checkpoints/Classifier_4'
     checkpoint_file = 'class_chkpnt_iter_232.pth'
 elif args.visit_gap == 6:
-    checkpoint_class_dir = './Datasets/checkpoints/Classifier_6'
+    checkpoint_class_dir = './Models/checkpoints/Classifier_6'
     checkpoint_file = 'class_chkpnt_iter_1254.pth'
 elif args.visit_gap == 8:
-    checkpoint_class_dir = './Datasets/checkpoints/Classifier_8'
+    checkpoint_class_dir = './Models/checkpoints/Classifier_8'
     checkpoint_file = 'class_chkpnt_iter_146.pth'
 else:
     raise NotImplementedError
-
 
 file_name_class = os.path.join(checkpoint_class_dir, checkpoint_file)
 logging.warning('Loading Checkpoint from: {}'.format(file_name_class))

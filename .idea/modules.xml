@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/AMDNet.iml" filepath="$PROJECT_DIR$/.idea/AMDNet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/LongitudinalAMDNet.iml" filepath="$PROJECT_DIR$/.idea/LongitudinalAMDNet.iml" />
     </modules>
   </component>
 </project>

@@ -112,27 +112,27 @@ for p in partitions:
 val_dataloader, test_dataloader = Data.val_dataloader(), Data.test_dataloader()
 
 # ############################# Loading Checkpoints #############################
+if args.visit_gap == 4:
+    args.checkpoint_dir = './Models/checkpoints/GAN_4'
+    args.epoch = 35
+    checkpoint_class_dir = './Models/checkpoints/Classifier_4'
+    checkpoint_file = 'class_chkpnt_iter_232.pth'
+elif args.visit_gap == 6:
+    args.checkpoint_dir = './Models/checkpoints/GAN_6'
+    args.epoch = 40
+    checkpoint_class_dir = './Models/checkpoints/Classifier_6'
+    checkpoint_file = 'class_chkpnt_iter_1254.pth'
+elif args.visit_gap == 8:
+    args.checkpoint_dir = './Models/checkpoints/GAN_8'
+    args.epoch = 45
+    checkpoint_class_dir = './Models/checkpoints/Classifier_8'
+    checkpoint_file = 'class_chkpnt_iter_146.pth'
+else:
+    raise NotImplementedError
 if args.binary_classifier:
     checkpoint_class_dir = './Datasets/checkpoints/binary_classifier'
     checkpoint_file = 'class_chkpnt_iter_352.pth'
     args.num_class = 2
-if args.visit_gap == 4:
-    args.checkpoint_dir = './Datasets/checkpoints/GAN_4'
-    args.epoch = 35
-    checkpoint_class_dir = './Datasets/checkpoints/Classifier_4'
-    checkpoint_file = 'class_chkpnt_iter_232.pth'
-elif args.visit_gap == 6:
-    args.checkpoint_dir = './Datasets/checkpoints/GAN_6'
-    args.epoch = 40
-    checkpoint_class_dir = './Datasets/checkpoints/Classifier_6'
-    checkpoint_file = 'class_chkpnt_iter_1254.pth'
-elif args.visit_gap == 8:
-    args.checkpoint_dir = './Datasets/checkpoints/GAN_8'
-    args.epoch = 45
-    checkpoint_class_dir = './Datasets/checkpoints/Classifier_8'
-    checkpoint_file = 'class_chkpnt_iter_146.pth'
-else:
-    raise NotImplementedError
 
 model_GAN = Pix2PixModel(args, isTrain=False).to(args.device)
 model_GAN.setup(args)
