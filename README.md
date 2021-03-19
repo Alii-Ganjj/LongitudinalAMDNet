@@ -11,15 +11,15 @@ This repository contains the Pytorch implementation for:
 </div>
 
 <div id="banner" style="overflow: hidden;justify-content:space-around;">
-<div class="" style="max-width: 20%;max-height: 20%;display: inline-block;">
+<div class="" style="width: 293px; height: 183px;display: inline-block;">
     <img src="./Figures/LongitudinalPred.png">
 </div>
 
-<div class="" style="max-width: 100%;max-height: 100%;display: inline-block;">
+<div class="" style="width: 293px; height: 183px;display: inline-block;">
     <img src="./Figures/ProgressedMainText1.png">
 </div>
 
-<div class="" style="max-width: 20%;max-height: 20%;display: inline-block;">
+<div class="" style="width: 293px; height: 183px;display: inline-block;">
     <img src="./Figures/saliency.png">
 </div>
 </div>
