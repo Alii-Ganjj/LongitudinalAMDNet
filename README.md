@@ -5,17 +5,12 @@ This repository contains the Pytorch implementation for:
 **LongitudinalAMDNet: A Temporal Correlation Structure Guided Deep Learning Framework for Predicting Longitudinal Age-Related Macular Degeneration Severity**<br/>Alireza Ganjdanesh, Jipeng Zhang, Anand Swaroop, Emily Chew, Ying Ding, Wei Chen&dagger;, Heng Huang&dagger;
 
 
-
-<div align="left">
-  <img src=./Figures/LongitudinalPred.png width = '293px' height = '183px'>
-</div>
-
 <div id="container">
-  <div id="left" float:"left"><img src=./Figures/LongitudinalPred.png width = '293px' height = '183px'></div>
-  <div id="right" float:"right"><img src=./Figures/ProgressedMainText1.png width = '293px' height = '183px'></div>
+  <div id="left" float:"left" align="left"><img src=./Figures/LongitudinalPred.png width = '293px' height = '183px'></div>
+  <div id="right" float:"right" align="right"><img src=./Figures/ProgressedMainText1.png width = '293px' height = '183px'></div>
 </div>
 
-<div id="center" float:"center"><img src=./Figures/saliency.png width = '293px' height = '183px'></div>
+<div id="center" float:"center" align="center"><img src=./Figures/saliency.png width = '293px' height = '183px'></div>
 
 
 
