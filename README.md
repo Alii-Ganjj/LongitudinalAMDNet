@@ -11,11 +11,11 @@ This repository contains the Pytorch implementation for:
 </div>
 
 <div id="container">
-  <div id="left" align="left"><img src=./Figures/LongitudinalPred.png width = '293px' height = '183px'></div>
-  <div id="right" align="right"><img src=./Figures/ProgressedMainText1.png width = '293px' height = '183px'></div>
+  <div id="left" float:"left"><img src=./Figures/LongitudinalPred.png width = '293px' height = '183px'></div>
+  <div id="right" float:"right"><img src=./Figures/ProgressedMainText1.png width = '293px' height = '183px'></div>
 </div>
 
-<div id="center" align="center"><img src=./Figures/saliency.png width = '293px' height = '183px'></div>
+<div id="center" float:"center"><img src=./Figures/saliency.png width = '293px' height = '183px'></div>
 
 
 
