@@ -6,13 +6,13 @@ This repository contains the Pytorch implementation for:
 
 <div id="container">
     <div align="left">
-        <img src=./Figures/LongitudinalPred.png width = '293px' height = '183px'>
+        <img style="display: inline" src=./Figures/LongitudinalPred.png width = '293px' height = '183px'>
     </div>
     <div align="center">
-        <img src=./Figures/ProgressedMainText1.png width = '293px' height = '183px'>
+        <img style="display: inline" src=./Figures/ProgressedMainText1.png width = '293px' height = '183px'>
     </div>
     <div align="right">
-        <img src=./Figures/saliency.png width = '293px' height = '183px'>
+        <img style="display: inline" src=./Figures/saliency.png width = '293px' height = '183px'>
     </div>
 </div>
 
