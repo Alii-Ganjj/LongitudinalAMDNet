@@ -17,7 +17,7 @@ This repository contains the Pytorch implementation for:
 ## Installation
 
 #### Data Preparation
-Please refer to [this page]() for detailed data preparation steps.
+Please refer to [this page](./Data) for detailed data preparation steps.
 
 #### Dependencies
 - Python 3.7 
