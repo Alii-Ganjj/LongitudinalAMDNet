@@ -1,3 +1,6 @@
+"""
+This script is used for training the GAN models.
+"""
 import os
 import logging
 import argparse

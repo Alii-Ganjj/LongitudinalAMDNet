@@ -1,3 +1,7 @@
+"""
+This script loads original images from the AREDS and UK Bio-bank datasets and performs pre-processing steps described
+in the paper on them.
+"""
 import os
 import argparse
 from Data.AMDDataAREDS import AMDDataAREDS

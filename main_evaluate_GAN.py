@@ -1,6 +1,6 @@
 """
-This script loads a checkpoint from Pix2Pix and a checkpoint of a classifier. It inputs the predicted 'next step' images
-from the generator into the discriminator and compares the results with the ground truth labels.
+This script loads a checkpoint from the GAN model and a checkpoint of a classifier. It inputs the predicted 'next step'
+images from the generator into the discriminator and compares the results with the ground truth labels.
 """
 import os
 import logging
