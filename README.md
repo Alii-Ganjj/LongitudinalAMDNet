@@ -37,3 +37,7 @@ Please refer to [`Data`](./Data) directory for detailed data preparation steps.
 - [`main_longitudinal_image_prediction.py`](main_longitudinal_image_prediction.py): code for longitudinal prediction of fundus images of the subjects using the trained GAN models' checkpoints.
 - [`main_visualization.py`](main_visualization.py): plotting the saliency maps of the outputs of the classification model.
 - [`main_resize_images.py`](main_resize_images.py): code for preprocessing images in AREDS and UK Biobank datasets.
+
+## Contact
+
+If you have any questions, please feel free to through email (alireza.ganjdanesh@pitt.edu) or GitHub issues.
