@@ -26,3 +26,11 @@ Please refer to [`Data`](./Data) directory for detailed data preparation steps.
 - Tensorflow
 - Scikit-learn + Scikit-image
 - PIL
+
+## Code Overview
+- [`main_classifier.py`](main_classifier.py): train the classification model with different time gap values.
+- [`main_next_step_GAN.py`](main_next_step_GAN.py): train the GAN model.
+- [`main_resize_images.py`](main_resize_images.py): code for preprocessing images in AREDS and UK Biobank datasets.
+- [`main_longitudinal_image_prediction.py`](main_longitudinal_image_prediction.py): code for longitudinal prediction of fundus images of the subjects.
+- [`main_evaluate_classifier.py`](main_evaluate_classifier.py): code for evaluating the trained classification model's checkpoints and obtaining their performance confidence interval.
+
