@@ -12,6 +12,6 @@ We followed the same preprocessing protocol for [DeepSeeNet](https://www.science
 
 ## Data Partitioning
 
-To make reproducing the experiments easier, we added three files with the name format 'FullVisitsGapXThr10.pkl' (X = 4, 6, or 8) containing the images used for each subject in experiments with the pairs with 4 (2), 6 (3), and 8 (4) months (years) time gap. These files are used in [here](https://github.com/Alii-Ganjj/LongitudinalAMDNet/blob/9deb08bb3f91c1979d1a7ec5cdc615512d28464c/Data/AMDDataAREDS.py#L176) to partition the dataset into the train, validation, and test sets. The names of images used in each experiment can be found by running the code until [here](https://github.com/Alii-Ganjj/LongitudinalAMDNet/blob/9deb08bb3f91c1979d1a7ec5cdc615512d28464c/Data/AMDDataAREDS.py#L164).
+To make reproducing the experiments easier, we added three files with the name format `FullVisitsGapXThr10.pkl (X = 4, 6, or 8)` containing the images used for each subject in experiments with the pairs with 4 (2), 6 (3), and 8 (4) months (years) time gaps. They are used in the `line 176` of the `LongitudinalAMDNet/Data/AMDDataAREDS.py` file to partition the dataset into the train, validation, and test sets. The names of images used in each experiment can be found by running the code until `line 176` of the same file.
 
 
