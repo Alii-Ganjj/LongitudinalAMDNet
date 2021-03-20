@@ -29,8 +29,11 @@ Please refer to [`Data`](./Data) directory for detailed data preparation steps.
 
 ## Code Overview
 - [`main_classifier.py`](main_classifier.py): train the classification model with different time gap values.
-- [`main_next_step_GAN.py`](main_next_step_GAN.py): train the GAN model.
-- [`main_resize_images.py`](main_resize_images.py): code for preprocessing images in AREDS and UK Biobank datasets.
-- [`main_longitudinal_image_prediction.py`](main_longitudinal_image_prediction.py): code for longitudinal prediction of fundus images of the subjects.
 - [`main_evaluate_classifier.py`](main_evaluate_classifier.py): code for evaluating the trained classification model's checkpoints and obtaining their performance confidence interval.
-
+- [`main_binary_classifier.py`](main_binary_classifier.py): train the a binary classifier to grade whether its input fundus image being in advanced AMD or not.
+- [`main_UKB.py`](main_UKB.py): evaluate trained classification model on the independent UK Biobank dataset.
+- [`main_next_step_GAN.py`](main_next_step_GAN.py): train the GAN model.
+- [`main_evaluate_GAN.py`](main_evaluate_GAN.py): quantitive evaluation of the trained GAN models.
+- [`main_longitudinal_image_prediction.py`](main_longitudinal_image_prediction.py): code for longitudinal prediction of fundus images of the subjects.
+- [`main_visualization.py`](main_visualization.py): plotting the saliency maps of the outputs of the classification model.
+- [`main_resize_images.py`](main_resize_images.py): code for preprocessing images in AREDS and UK Biobank datasets.
