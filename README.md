@@ -38,6 +38,9 @@ Please refer to [`Data`](./Data) directory for detailed data preparation steps.
 - [`main_visualization.py`](main_visualization.py): plotting the saliency maps of the outputs of the classification model.
 - [`main_resize_images.py`](main_resize_images.py): code for preprocessing images in AREDS and UK Biobank datasets.
 
+### Trained Checkpoint Models
+All of our trained checkpoint models are available [here](https://drive.google.com/drive/folders/1fGw8NEiO32e0S5DriuxrI7nbySyNi-gk?usp=sharing). Please download and put them in their corresponding folder in the [`checkpoints`](Models/checkpoints) directory.
+
 ## Contact
 
 If you have any questions, please feel free to through email (alireza.ganjdanesh@pitt.edu) or GitHub issues.
