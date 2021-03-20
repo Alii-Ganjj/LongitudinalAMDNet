@@ -34,6 +34,6 @@ Please refer to [`Data`](./Data) directory for detailed data preparation steps.
 - [`main_UKB.py`](main_UKB.py): evaluate trained classification model on the independent UK Biobank dataset.
 - [`main_next_step_GAN.py`](main_next_step_GAN.py): train the GAN model.
 - [`main_evaluate_GAN.py`](main_evaluate_GAN.py): quantitive evaluation of the trained GAN models.
-- [`main_longitudinal_image_prediction.py`](main_longitudinal_image_prediction.py): code for longitudinal prediction of fundus images of the subjects.
+- [`main_longitudinal_image_prediction.py`](main_longitudinal_image_prediction.py): code for longitudinal prediction of fundus images of the subjects using the trained GAN models' checkpoints.
 - [`main_visualization.py`](main_visualization.py): plotting the saliency maps of the outputs of the classification model.
 - [`main_resize_images.py`](main_resize_images.py): code for preprocessing images in AREDS and UK Biobank datasets.
