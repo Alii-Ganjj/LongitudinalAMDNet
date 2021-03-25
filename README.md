@@ -2,7 +2,7 @@
 
 This repository contains the Pytorch implementation for:
 
-**LongitudinalAMDNet: A Temporal Correlation Structure Guided Deep Learning Framework for Predicting Longitudinal Age-Related Macular Degeneration Severity**<br/>Alireza Ganjdanesh, Jipeng Zhang, Anand Swaroop, Emily Chew, Ying Ding, Wei Chen&dagger;, Heng Huang&dagger;
+**LongitudinalAMDNet: A Temporal Correlation Structure Guided Deep Learning Framework for Predicting Longitudinal Age-Related Macular Degeneration Severity**<br/>Alireza Ganjdanesh, Jipeng Zhang, Emily Chew, Ying Ding, Wei Chen&dagger;, Heng Huang&dagger;
 
 <div align="center">
     <img style="display: inline" src=./Figures/LongitudinalPred.png width = '381px' height = '238px'>
