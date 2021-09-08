@@ -43,4 +43,4 @@ All of our trained checkpoint models are available [here](https://drive.google.c
 
 ## Contact
 
-If you have any questions, please feel free to contact us through email (alireza.ganjdanesh@pitt.edu) or GitHub issues.
+If you have any questions, please feel free to contact us through email (alireza.ganjdanesh@pitt.edu).
