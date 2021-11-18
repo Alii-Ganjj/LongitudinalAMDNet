@@ -2,7 +2,7 @@
 
 This repository contains the PyTorch implementation for:
 
-**LONGL-Net: Temporal Correlation Structure Guided Deep Learning Model to Predict Longitudinal Age-related Macular Degeneration Severity (to appear in [the Proceedings of the National Academy of Sciences (PNAS) Nexus](https://academic.oup.com/pnasnexus)**<br/>Alireza Ganjdanesh, Jipeng Zhang, Emily Chew, Ying Ding, Wei Chen&dagger;, Heng Huang&dagger;
+**LONGL-Net: Temporal Correlation Structure Guided Deep Learning Model to Predict Longitudinal Age-related Macular Degeneration Severity (to appear in the [Proceedings of the National Academy of Sciences (PNAS) Nexus](https://academic.oup.com/pnasnexus)**<br/>Alireza Ganjdanesh, Jipeng Zhang, Emily Chew, Ying Ding, Wei Chen&dagger;, Heng Huang&dagger;
 
 <div align="center">
     <img style="display: inline" src=./Figures/LongitudinalPred.png width = '381px' height = '238px'>
