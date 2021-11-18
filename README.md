@@ -1,6 +1,6 @@
 # LONGL-Net
 
-This repository contains the Pytorch implementation for:
+This repository contains the PyTorch implementation for:
 
 **LONGL-Net: Temporal Correlation Structure Guided Deep Learning Model to Predict Longitudinal Age-related Macular Degeneration Severity (to appear in the Proceedings of the National Academy of Sciences (PNAS) Nexus)**<br/>Alireza Ganjdanesh, Jipeng Zhang, Emily Chew, Ying Ding, Wei Chen&dagger;, Heng Huang&dagger;
 
